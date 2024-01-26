@@ -1,0 +1,131 @@
+/* 
+
+
+.mysql{
+    top:40vh;
+    left:59vh;
+}
+.npm{
+    top:55vh;
+    left:145vh;
+    
+}
+.python{
+    top:80vh;
+    left:65vh;
+}
+.numpy{
+    top:80vh;
+    left:100vh;
+}
+.nodejs{
+    top:55vh;
+    left:115vh;
+}
+.git{
+    top:68vh;
+    left:125vh;
+ }
+.mongodb{
+    top:36vh;
+    left:125vh;
+}
+.javascript{
+    top:26vh;
+    left:105vh;
+}
+
+.react{
+    top:20vh;
+    left:125vh;
+}
+
+.bootstrap{
+    top:42vh;
+    left:105vh;
+} */
+/* 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+} */
+/* 
+.hero-section {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.icon-container {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    perspective: 800px;
+   
+} 
+.icon {
+    width: 80px;
+    height: 100px;
+    margin: 0 60px; 
+    position: absolute;
+    transform-origin: 10% 100%;
+     animation: spin 15s linear infinite;
+} 
+
+/* .icon.python { animation-delay: 0s; }
+.icon.nodejs { animation-delay: -2s; }
+.icon.git { animation-delay: -4s; }
+.icon.react { animation-delay: -6s; }
+.icon.mongodb{ animation-delay: -8s; }
+.icon.python { animation-delay: -10s; }
+.icon.mysql { animation-delay: -12s; }
+.icon.numpy { animation-delay: -14s; }
+.icon.bootstrap { animation-delay: -16s; }
+.icon.javascript { animation-delay: -18s; }
+.icon.npm { animation-delay: -20s; }
+.human-image {
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes spin {
+    0% { transform: rotateY(0deg)  translateZ(200px); }
+    100% { transform: rotateY(360deg) translateZ(200px); }
+}  */
+
+
+.tagline-box{
+    /* width:40%; */
+    /* position:absolute; */
+   z-index:1;
+   top:25%;
+}
+
+.img-control-profile{
+    height:40rem;
+    position:absolute;
+    top:15%;
+    z-index:0;
+    left:30%;
+}
+
+.icons-div{
+    position: relative;
+    top:25%;
+}
+.tech-icon{
+    transition: transform 0.3s ease;
+
+}
+
+.tech-icon:hover{
+    transform: scale(1.2) rotateX(15deg) rotateY(45deg) ;
+}
