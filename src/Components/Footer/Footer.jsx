@@ -30,9 +30,10 @@ function Footer(){
                 <div className="col-lg-3 col-md-6">
                     <h5 className="mb-3 white">Social Media</h5>
                     <ul className="list-unstyled text-muted">
-                        <li><a className="link white" href="#">Facebook</a></li>
-                        <li><a className="link white" href="https://www.instagram.com/datasaltinsta/?igshid=MzRlODBiNWFlZA%3D%3D"  target="_blank">Instagram</a></li>
-                        <li><a className="link white" href="#">Linkedin</a></li>
+                        <li><a className="link white" href="https://github.com/guptaarth87/" target="_blank">Github</a></li>
+                        <li><a className="link white" href="https://youtu.be/H2e75UsfH9w?feature=shared" target="_blank">Youtube</a></li>
+                        <li><a className="link white" href="https://www.instagram.com/codekrakenhq?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="  target="_blank">Instagram</a></li>
+                        <li><a className="link white" href="https://www.linkedin.com/in/arth-gupta-a85b4a210/" target="_blank">Linkedin</a></li>
                         
                     </ul>
                 </div>
