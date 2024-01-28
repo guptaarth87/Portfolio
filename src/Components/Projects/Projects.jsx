@@ -17,7 +17,7 @@ export default function Projects() {
         <h2 class="text-xl font-semibold mb-2 text-white">{item.name_}</h2>
         <p class="text-white mb-4">{item.description}</p>
         <p class="text-sm text-white mb-4">Technologies Used: HTML, CSS, JavaScript, Tailwind CSS</p>
-        <a href="#" class="text-blue-500 flex items-center">
+        <a href={item.project_url} class="text-blue-500 flex items-center" target="_blank">
             <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
                 <path d="M21 12H3M12 3l-8 9 8 9"></path>
             </svg>

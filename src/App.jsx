@@ -7,7 +7,7 @@ import Hero from './Components/Hero/Hero';
 
 function App() {
   return (
-    <div className="App bg-slate-900 ">
+    <div className="App bg-slate-900 description-size">
      <main>
   
 <Routes>

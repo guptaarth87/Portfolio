@@ -6,7 +6,7 @@ import GoogleCertificate from '../../Assets/Certificates/coursera certificate go
 export default function CertificatesAndBadges() {
   return (
    <>
-      <div id="Certificatesandbadges"></div>
+      <div id="certificatesandbadges"></div>
    <div className='text-4xl mt-6 text-white font-bold text-center'>Certificates & Badges</div>
    <div className="row">   
     <div class=" mt-4 max-w-sm mx-auto background-clr rounded-md overflow-hidden shadow-lg">
