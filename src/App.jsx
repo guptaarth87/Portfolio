@@ -2,7 +2,7 @@
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import LandingPage from './Pages/LandingPage';
-import SideBar from './Components/Navigation/SideBar';
+
 import Hero from './Components/Hero/Hero';
 
 function App() {
