@@ -9,6 +9,7 @@ import CertificatesAndBadges from '../Components/CertificatesAndBadges/Certifica
 import DownloadResume from '../Components/DownloadResume/DownloadResume';
 import Footer from '../Components/Footer/Footer';
 import { HashLink } from 'react-router-hash-link';
+import Testimonials from '../Components/Testimonials/Testimonials';
 
 const LandingPage = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -174,6 +175,7 @@ const LandingPage = () => {
            <CertificatesAndBadges/>
           
            </div>
+           <Testimonials/>
            <Footer/>
         </main>
       </div>
