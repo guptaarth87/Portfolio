@@ -11,7 +11,7 @@ export default function Projects() {
         ProjectData.map((item,key)=>{
             return(
                 <>
-                <div class=" mt-4 max-w-md mx-auto background-clr rounded-md overflow-hidden shadow-lg">
+                <div class=" mt-4 max-w-sm mx-auto background-clr rounded-md overflow-hidden shadow-lg">
     <img src={item.image_url} alt="Project Image" class="rounded-md w-full h-48 object-cover" />
     <div class="p-6">
         <h2 class="text-xl font-semibold mb-2 text-white">{item.name_}</h2>

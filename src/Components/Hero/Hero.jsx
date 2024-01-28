@@ -9,12 +9,12 @@ export default function Hero() {
    <div id="hero"></div>
    <div className="container">
     <div className="row">
-   <div className='col-lg-7'>
+   <div className='col-lg-7 col-md-12 col-sm-12'>
     <div className=" m-2 tagline-box mt-4">
-      <h1  className="text-6xl  text-white font-bold">Hi, </h1>
-      <h1  className="text-6xl  text-white font-bold">I am <span className='highlight'>Arth.</span></h1>
+      <h1  className="text-3xl md:text-4xl lg:text-6xl  text-white font-bold">Hi, </h1>
+      <h1  className="text-3xl md:text-4xl lg:text-6xl   text-white font-bold">I am <span className='highlight'>Arth.</span></h1>
       <br></br>
-         <h3 className="text-2xl  text-white font-bold">
+         <h3 className="text-1xl md:text-2xl  text-white font-bold">
           I am a passionate explorer of technologies, dedicated to coding and leveraging my extensive programming experience. 
           <br></br>
           <br></br>
@@ -26,7 +26,7 @@ export default function Hero() {
     {/* <img src={BasicInfo.profile_photo} className="img-control-profile" /> */}
 
    </div>
-   <div className='col-lg-4 icons-div'> 
+   <div className='col-lg-5 col-md-12 col-sm-12 icons-div'> 
    <div className="row mt-4">   
     <img className="col-4 h-32  tech-icon python" src={icons.python} />
    <img className="col-4 h-32 tech-icon  nodejs" src={icons.nodejs} />
